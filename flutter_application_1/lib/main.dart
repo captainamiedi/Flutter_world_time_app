@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/choose_location.dart';
 import 'package:flutter_application_1/pages/loading.dart';
 import 'pages/home.dart';
+import 'pages/forms.dart';
 // import 'quote.dart';
 // import 'quote_card.dart';
 
@@ -49,5 +50,6 @@ void main() => runApp(MaterialApp(
         '/': (context) => Loading(),
         '/home': (context) => Home(),
         '/location': (context) => ChooseLocation(),
+        '/form': (context) => Forms(),
       },
     ));
