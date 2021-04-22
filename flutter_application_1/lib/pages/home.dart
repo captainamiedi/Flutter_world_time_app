@@ -52,6 +52,17 @@ class _HomeState extends State<Home> {
                   ),
                 ),
                 SizedBox(height: 20.0),
+                FlatButton.icon(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/form');
+                  },
+                  label: Text(
+                    'Forms',
+                    style: TextStyle(color: Colors.grey[300]),
+                  ),
+                  icon: Icon(Icons.person_add, color: Colors.grey[300]),
+                ),
+                SizedBox(height: 20.0),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
